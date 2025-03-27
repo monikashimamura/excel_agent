@@ -1,0 +1,32 @@
+{
+  "id":"ExcelGroup",
+  "name":"ExcelGroup",
+  "type":"agent",
+  "title":"Excel智能体组",
+  "description":"帮忙完成一些处理Excel文件的任务",
+  "prompt": "",
+  "keywords": ["Excel", "任务"],
+  "reference":"http://xxx/Scheduling/机器ID",
+  "manual":"http://wechat.com/xxxx.html",
+  "agents": ["ExcelReadAgent"],
+  "params":[
+    {
+      "title":"task",
+      "name":"task",
+      "type":"String",
+      "notnull":true,
+      "description": "用户任务",
+      "defaultValue":""
+    }
+  ],
+  "results":[
+    {
+      "title":"result",
+      "name":"result",
+      "type":"String",
+      "notnull":true,
+      "description":"任务结果",
+      "defaultValue":""
+    }
+  ]
+}

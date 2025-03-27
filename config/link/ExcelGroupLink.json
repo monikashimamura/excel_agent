@@ -1,0 +1,10 @@
+{
+  "group": "ExcelGroup",
+  "links": [
+    {
+      "source": "start",
+      "target": "ExcelGroup/ExcelReadAgent",
+      "type": "hard"
+    }
+  ]
+}

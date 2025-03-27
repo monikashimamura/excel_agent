@@ -1,0 +1,27 @@
+{
+  "id": "ExcelReadAgent",
+  "description": "读取Excel文件内容的工具智能体",
+  "title": "ExcelReadAgent",
+  "keywords": ["excel", "工具"],
+  "manual": "http://wechat.com/xxxx.html",
+  "params": [
+    {
+      "name": "excel_file_name",
+      "title": "excel_file_name",
+      "type": "str",
+      "notnull": true,
+      "description": "excel 文件名称",
+      "defaultValue": ""
+    }
+  ],
+  "results": [
+    {
+      "name": "excel_read_result",
+      "title": "excel_read_result",
+      "type": "str",
+      "notnull": true,
+      "description": "excel 读取结果",
+      "defaultValue": ""
+    }
+  ]
+}

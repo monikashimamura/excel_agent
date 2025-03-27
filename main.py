@@ -14,7 +14,7 @@ def service():
     assert context['flowId'] is not None, "智能体流程节点未找到"
     assert context['task'] is not None, "智能体任务未找到"
     graph = Graph()
-    result = graph.execute(network, context['flowId'], context.get("params"), context.get("results", ["result"]))
+    result = graph.execute(network, context['task'], context['flowId'], context.get("params"), context.get("results", ["result"]))
     graph.release()
     return result
 
