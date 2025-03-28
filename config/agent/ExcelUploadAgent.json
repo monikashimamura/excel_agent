@@ -1,0 +1,44 @@
+{
+  "id": "ExcelUploadAgent",
+  "name": "ExcelUploadAgent",
+  "description": "将本地Excel文件内容上传到云端，以供后续智能体使用的工具智能体",
+  "title": "ExcelUploadAgent",
+  "keywords": ["excel", "上传", "工具"],
+  "manual": "http://wechat.com/xxxx.html",
+  "params": [
+    {
+      "name": "excel_file_path",
+      "title": "excel_file_path",
+      "type": "str",
+      "notnull": true,
+      "description": "本地Excel文件的位置",
+      "defaultValue": ""
+    },
+    {
+      "name": "excel_file_name",
+      "title": "excel_file_name",
+      "type": "str",
+      "notnull": true,
+      "description": "本地Excel文件的名称",
+      "defaultValue": "temp.xlsx"
+    },
+    {
+      "name": "task",
+      "title": "task",
+      "type": "str",
+      "notnull": true,
+      "description": "需要处理的任务",
+      "defaultValue": ""
+    }
+  ],
+  "results": [
+    {
+      "name": "excel_file_url",
+      "title": "excel_file_url",
+      "type": "str",
+      "notnull": true,
+      "description": "Excel文件位置",
+      "defaultValue": ""
+    }
+  ]
+}

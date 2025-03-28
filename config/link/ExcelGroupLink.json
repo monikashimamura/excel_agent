@@ -4,6 +4,16 @@
     {
       "source": "start",
       "target": "ExcelGroup/ExcelReadAgent",
+      "type": "soft"
+    },
+    {
+      "source": "start",
+      "target": "ExcelGroup/ExcelUploadAgent",
+      "type": "soft"
+    },
+    {
+      "source": "ExcelGroup/ExcelUploadAgent",
+      "target": "ExcelGroup/ExcelReadAgent",
       "type": "hard"
     }
   ]

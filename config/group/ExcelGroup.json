@@ -8,8 +8,32 @@
   "keywords": ["Excel", "任务"],
   "reference":"http://xxx/Scheduling/机器ID",
   "manual":"http://wechat.com/xxxx.html",
-  "agents": ["ExcelReadAgent"],
+  "agents": ["ExcelUploadAgent", "ExcelReadAgent"],
   "params":[
+    {
+      "name": "excel_file_path",
+      "title": "excel_file_path",
+      "type": "str",
+      "notnull": true,
+      "description": "本地Excel文件的位置",
+      "defaultValue": ""
+    },
+    {
+      "name": "excel_file_name",
+      "title": "excel_file_name",
+      "type": "str",
+      "notnull": true,
+      "description": "本地Excel文件的名称",
+      "defaultValue": "temp.xlsx"
+    },
+    {
+      "name": "excel_file_url",
+      "title": "excel_file_url",
+      "type": "str",
+      "notnull": true,
+      "description": "Excel文件位置",
+      "defaultValue": ""
+    },
     {
       "title":"task",
       "name":"task",
