@@ -9,7 +9,7 @@
     {
       "name": "excel_file_path",
       "title": "excel_file_path",
-      "type": "str",
+      "type": "string",
       "notnull": true,
       "description": "本地Excel文件的位置",
       "defaultValue": ""
@@ -17,7 +17,7 @@
     {
       "name": "excel_file_name",
       "title": "excel_file_name",
-      "type": "str",
+      "type": "string",
       "notnull": true,
       "description": "本地Excel文件的名称",
       "defaultValue": "temp.xlsx"
@@ -25,7 +25,7 @@
     {
       "name": "task",
       "title": "task",
-      "type": "str",
+      "type": "string",
       "notnull": true,
       "description": "需要处理的任务",
       "defaultValue": ""
@@ -35,9 +35,9 @@
     {
       "name": "excel_file_url",
       "title": "excel_file_url",
-      "type": "str",
+      "type": "file",
       "notnull": true,
-      "description": "Excel文件位置",
+      "description": "Excel文件定位符",
       "defaultValue": ""
     }
   ]

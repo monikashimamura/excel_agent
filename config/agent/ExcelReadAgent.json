@@ -9,15 +9,15 @@
     {
       "name": "excel_file_url",
       "title": "excel_file_url",
-      "type": "str",
+      "type": "file",
       "notnull": true,
-      "description": "Excel文件位置",
+      "description": "Excel文件定位符",
       "defaultValue": ""
     },
     {
       "name": "task",
       "title": "task",
-      "type": "str",
+      "type": "string",
       "notnull": true,
       "description": "需要处理的任务",
       "defaultValue": ""
@@ -27,7 +27,7 @@
     {
       "name": "excel_read_result",
       "title": "excel_read_result",
-      "type": "str",
+      "type": "string",
       "notnull": true,
       "description": "Excel文件读取结果",
       "defaultValue": ""
